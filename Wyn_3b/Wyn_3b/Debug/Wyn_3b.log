@@ -1,0 +1,22 @@
+﻿  Wyn_3b.cpp
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn_3b\wyn_3b\wyn_3b.cpp(245): warning C4101: 'endTime': unreferenced local variable
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn_3b\wyn_3b\hashtable.h(59): error C2563: mismatch in formal parameter list
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn_3b\wyn_3b\hashtable.h(58): note: while compiling class template member function 'bool HashTable<std::string>::inList(T)'
+          with
+          [
+              T=std::string
+          ]
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn_3b\wyn_3b\wyn_3b.cpp(133): note: see reference to function template instantiation 'bool HashTable<std::string>::inList(T)' being compiled
+          with
+          [
+              T=std::string
+          ]
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn_3b\wyn_3b\wyn_3b.cpp(127): note: see reference to class template instantiation 'HashTable<std::string>' being compiled
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn_3b\wyn_3b\hashtable.h(59): error C2568: '%': unable to resolve function overload
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn_3b\wyn_3b\hashtable.h(59): note: could be 'size_t std::size(const _Ty (&)[_Size]) noexcept'
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn_3b\wyn_3b\hashtable.h(59): note: or       'unknown-type std::size(const _Container &)'
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn_3b\wyn_3b\hashtable.h(60): warning C4018: '<': signed/unsigned mismatch
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn_3b\wyn_3b\hashtable.h(65): error C2181: illegal else without matching if
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  HashTable.cpp

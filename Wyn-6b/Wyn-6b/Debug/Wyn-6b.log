@@ -1,0 +1,28 @@
+﻿  Wyn-6b.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6b\wyn-6b\wyn-6b.cpp(74): warning C4101: 'startId': unreferenced local variable
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6b\wyn-6b\wyn-6b.cpp(73): warning C4101: 'n': unreferenced local variable
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6b\wyn-6b\wyn-6b.cpp(74): warning C4101: 'endId': unreferenced local variable
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6b\wyn-6b\wyn-6b.cpp(115): warning C4101: 'vdFinal': unreferenced local variable
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6b\wyn-6b\wyn-6b.cpp(169): warning C4101: 'temp': unreferenced local variable
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6b\wyn-6b\wyn-6b.cpp(175): warning C4101: 'dataTypeFix': unreferenced local variable
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6b\wyn-6b\wyn-6b.cpp(211): warning C4101: 'vdFinal': unreferenced local variable
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6b\wyn-6b\wyn-6b.cpp(248): warning C4101: 'vdFinal': unreferenced local variable
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6b\wyn-6b\heap.h(88): warning C4018: '<': signed/unsigned mismatch
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6b\wyn-6b\heap.h(87): note: while compiling class template member function 'void heapV<unsigned int,Graph>::initializeMinHeap(std::vector<std::T,std::allocator<std::_Ty>>,U &)'
+          with
+          [
+              T=unsigned int,
+              _Ty=unsigned int,
+              U=Graph
+          ]
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6b\wyn-6b\wyn-6b.cpp(166): note: see reference to function template instantiation 'void heapV<unsigned int,Graph>::initializeMinHeap(std::vector<std::T,std::allocator<std::_Ty>>,U &)' being compiled
+          with
+          [
+              T=unsigned int,
+              _Ty=unsigned int,
+              U=Graph
+          ]
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6b\wyn-6b\wyn-6b.cpp(155): note: see reference to class template instantiation 'heapV<unsigned int,Graph>' being compiled
+  Wyn-6b.vcxproj -> c:\users\bryce_000\documents\visual studio 2015\Projects\Wyn-6b\Debug\Wyn-6b.exe
+  Wyn-6b.vcxproj -> c:\users\bryce_000\documents\visual studio 2015\Projects\Wyn-6b\Debug\Wyn-6b.pdb (Full PDB)

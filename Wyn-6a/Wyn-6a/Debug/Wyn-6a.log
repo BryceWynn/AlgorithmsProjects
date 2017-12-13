@@ -1,0 +1,49 @@
+﻿  main.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(74): warning C4101: 'startId': unreferenced local variable
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(73): warning C4101: 'n': unreferenced local variable
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(74): warning C4101: 'endId': unreferenced local variable
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(115): warning C4101: 'vdFinal': unreferenced local variable
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(154): error C2065: 'HeapV': undeclared identifier
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(154): error C2275: 'boost::adj_list_helper<Config,Base>::vertex_iterator': illegal use of this type as an expression
+          with
+          [
+              Config=boost::detail::adj_list_gen<boost::adjacency_list<boost::vecS,boost::vecS,boost::bidirectionalS,VertexProperties,EdgeProperties,boost::no_property,boost::listS>,boost::vecS,boost::vecS,boost::bidirectionalS,VertexProperties,EdgeProperties,boost::no_property,boost::listS>::config,
+              Base=boost::bidirectional_graph_helper_with_property<boost::detail::adj_list_gen<boost::adjacency_list<boost::vecS,boost::vecS,boost::bidirectionalS,VertexProperties,EdgeProperties,boost::no_property,boost::listS>,boost::vecS,boost::vecS,boost::bidirectionalS,VertexProperties,EdgeProperties,boost::no_property,boost::listS>::config>
+          ]
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(154): note: see declaration of 'boost::adj_list_helper<Config,Base>::vertex_iterator'
+          with
+          [
+              Config=boost::detail::adj_list_gen<boost::adjacency_list<boost::vecS,boost::vecS,boost::bidirectionalS,VertexProperties,EdgeProperties,boost::no_property,boost::listS>,boost::vecS,boost::vecS,boost::bidirectionalS,VertexProperties,EdgeProperties,boost::no_property,boost::listS>::config,
+              Base=boost::bidirectional_graph_helper_with_property<boost::detail::adj_list_gen<boost::adjacency_list<boost::vecS,boost::vecS,boost::bidirectionalS,VertexProperties,EdgeProperties,boost::no_property,boost::listS>,boost::vecS,boost::vecS,boost::bidirectionalS,VertexProperties,EdgeProperties,boost::no_property,boost::listS>::config>
+          ]
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(154): error C2065: 'pointHeap': undeclared identifier
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(154): error C2275: 'Graph': illegal use of this type as an expression
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(30): note: see declaration of 'Graph'
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(164): error C2065: 'pointHeap': undeclared identifier
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(164): error C2228: left of '.initializeMinHeap' must have class/struct/union
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(164): note: type is 'unknown-type'
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(165): error C2065: 'pointHeap': undeclared identifier
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(165): error C2228: left of '.getIndex' must have class/struct/union
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(165): note: type is 'unknown-type'
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(166): error C2065: 'pointHeap': undeclared identifier
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(166): error C2228: left of '.minHeapDecreaseKey' must have class/struct/union
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(166): note: type is 'unknown-type'
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(168): error C2065: 'pointHeap': undeclared identifier
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(168): error C2228: left of '.extractMinHeapMinimum' must have class/struct/union
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(168): note: type is 'unknown-type'
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(170): error C2065: 'pointHeap': undeclared identifier
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(170): error C2228: left of '.size' must have class/struct/union
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(170): note: type is 'unknown-type'
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(174): error C2672: 'target': no matching overloaded function found
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(174): error C2784: 'Vertex boost::target(const boost::detail::edge_base<Directed,Vertex> &,const boost::adjacency_list<OutEdgeListS,VertexListS,DirectedS,VertexProperty,EdgeProperty,GraphProperty,EdgeListS> &)': could not deduce template argument for 'const boost::detail::edge_base<Directed,Vertex> &' from 'unsigned int'
+  c:\boost_1_57_0\boost\graph\adjacency_list.hpp(431): note: see declaration of 'boost::target'
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(174): error C2784: 'T std::target(std::pair<_BidIt,_BidIt>,const G &)': could not deduce template argument for 'std::pair<_BidIt,_BidIt>' from 'unsigned int'
+  c:\boost_1_57_0\boost\graph\graph_traits.hpp(390): note: see declaration of 'std::target'
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(180): error C2601: 'isCyclic': local function definitions are illegal
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(153): note: this line contains a '{' which has not yet been matched
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(215): error C2601: 'findSpanningForest': local function definitions are illegal
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(153): note: this line contains a '{' which has not yet been matched
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(268): error C2601: 'main': local function definitions are illegal
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(153): note: this line contains a '{' which has not yet been matched
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-6a\wyn-6a\main.cpp(153): fatal error C1075: the left brace '{' was unmatched at the end of the file

@@ -1,0 +1,20 @@
+﻿  wyn-5c.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-5c\wyn-5c\heap.h(88): warning C4018: '<': signed/unsigned mismatch
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-5c\wyn-5c\heap.h(87): note: while compiling class template member function 'void heapV<unsigned int,Graph>::initializeMinHeap(std::vector<std::T,std::allocator<std::_Ty>>,U &)'
+          with
+          [
+              T=unsigned int,
+              _Ty=unsigned int,
+              U=Graph
+          ]
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-5c\wyn-5c\wyn-5c.cpp(118): note: see reference to function template instantiation 'void heapV<unsigned int,Graph>::initializeMinHeap(std::vector<std::T,std::allocator<std::_Ty>>,U &)' being compiled
+          with
+          [
+              T=unsigned int,
+              _Ty=unsigned int,
+              U=Graph
+          ]
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-5c\wyn-5c\wyn-5c.cpp(110): note: see reference to class template instantiation 'heapV<unsigned int,Graph>' being compiled
+  wyn-5c.vcxproj -> c:\users\bryce_000\documents\visual studio 2015\Projects\wyn-5c\Debug\wyn-5c.exe
+  wyn-5c.vcxproj -> c:\users\bryce_000\documents\visual studio 2015\Projects\wyn-5c\Debug\wyn-5c.pdb (Full PDB)

@@ -1,0 +1,7 @@
+﻿  wyn-2b.cpp
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-2b\wyn-2b\wyn-2b.cpp(42): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Deck.cpp
+  Card.cpp
+  Generating Code...
+  wyn-2b.vcxproj -> C:\Users\bryce_000\Documents\Visual Studio 2015\Projects\wyn-2b\Debug\wyn-2b.exe
+  wyn-2b.vcxproj -> C:\Users\bryce_000\Documents\Visual Studio 2015\Projects\wyn-2b\Debug\wyn-2b.pdb (Full PDB)

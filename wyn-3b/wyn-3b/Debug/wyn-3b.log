@@ -1,0 +1,25 @@
+﻿  wyn-3b.cpp
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-3b\wyn-3b\wyn-3b.cpp(252): warning C4101: 'endTime': unreferenced local variable
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-3b\wyn-3b\hashtable.h(81): warning C4018: '<': signed/unsigned mismatch
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-3b\wyn-3b\hashtable.h(79): note: while compiling class template member function 'bool HashTable<std::string>::inList(T)'
+          with
+          [
+              T=std::string
+          ]
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-3b\wyn-3b\wyn-3b.cpp(134): note: see reference to function template instantiation 'bool HashTable<std::string>::inList(T)' being compiled
+          with
+          [
+              T=std::string
+          ]
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-3b\wyn-3b\wyn-3b.cpp(128): note: see reference to class template instantiation 'HashTable<std::string>' being compiled
+c:\users\bryce_000\documents\visual studio 2015\projects\wyn-3b\wyn-3b\heap.h(67): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-3b\wyn-3b\heap.h(65): note: while compiling class template member function 'void Heap<std::string>::maxHeapify(void)'
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-3b\wyn-3b\heap.h(59): note: see reference to function template instantiation 'void Heap<std::string>::maxHeapify(void)' being compiled
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-3b\wyn-3b\heap.h(37): note: while compiling class template member function 'Heap<std::string>::Heap(void)'
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-3b\wyn-3b\wyn-3b.cpp(246): note: see reference to function template instantiation 'Heap<std::string>::Heap(void)' being compiled
+  c:\users\bryce_000\documents\visual studio 2015\projects\wyn-3b\wyn-3b\wyn-3b.cpp(246): note: see reference to class template instantiation 'Heap<std::string>' being compiled
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Heap.cpp
+  wyn-3b.vcxproj -> C:\Users\bryce_000\Documents\Visual Studio 2015\Projects\wyn-3b\Debug\wyn-3b.exe
+  wyn-3b.vcxproj -> C:\Users\bryce_000\Documents\Visual Studio 2015\Projects\wyn-3b\Debug\wyn-3b.pdb (Full PDB)
